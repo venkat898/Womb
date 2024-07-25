@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week30"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ffffff"
+        app:logo="@drawable/menu"
+        android:defaultFocusHighlightEnabled="true"
+        android:elevation="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:src="@drawable/thirty"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Baby"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your baby's length is about 16 inches about as long as a laptop computer and she measures almost 11 inches from crown to rump. She weighs approximately 2 1/2 to 3 pounds.From now until delivery, every baby will gain weight at a more individual rate. Your baby has doubled in height over the past six weeks, and from now until delivery, she'll gain only a few more inches in length. Don't worry if she's in a strange position (what your care provider might call a transverse lie). There's still plenty of time for her to get settled into the head-down (cephalic) position for birth.She's floating in about 1 1/2 pints of amniotic fluid and has some room to move. Your baby's most important organ, her brain, continues to develop at a rapid pace. Her eyes are able to track light, and some researchers have theorized that exposing your belly to light may stimulate development. Try moving the beam of a flashlight slowly over your belly in a dim room, and see if she reacts."
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Belly"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You might find yourself increasingly breathless as your growing uterus crowds your diaphragm. It should ease a bit when the baby drops lower in your pelvis later in pregnancy. Your belly is about the size of a watermelon. Tying  "
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tips &amp; To-Do's"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When Push Comes To Shove: While your birth experience will be as unique to you as your new baby, the phases of labor and delivery are the same for everyone. During pregnancy the opening of your uterus, the cervix, is firm and closed. As your due date approaches, you may experience mild contractions that help prepare your cervix for delivery. "
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

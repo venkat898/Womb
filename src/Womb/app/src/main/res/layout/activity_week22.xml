@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week22"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ffffff"
+        app:logo="@drawable/menu"
+        android:defaultFocusHighlightEnabled="true"
+        android:elevation="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:src="@drawable/twentytwo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Baby"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The brain has entered a phase of extremely rapid growth. Length: about 11 inches; weight: just under 1 pound. She is entering her fifth month of existence. Her fingernails are almost fully grown, and her organ systems are becoming more functional and specialized. She has a distinct pair of lips, and her first canines and molars are developing below her gum line. She looks like a miniature newborn. Blood is traveling through the umbilical cord at four miles an hour, fueling her growth with oxygen and nutrients."
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Belly"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your uterus is certainly growing, but you can probably still bend over, sit, drive, and function fairly comfortably. You may have increased veginal discharge as your pregnancy progresses. Yeast infection  during pregnancy are quite common. Symptoms include redness and itchiness around your vagina and a yeast-smelling discharge, but douching during pregnancy is not advised. This is a good time to have your iron levels checked and to make sure you're drinking enough water, given how much your blood volume has increased over the past few months. As many as 20 percent or pregnant women are anmic, and anemia can put you at serious risk if you hemorrhage during delivery. "
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

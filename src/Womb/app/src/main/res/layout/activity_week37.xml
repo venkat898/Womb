@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week37"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ffffff"
+        app:logo="@drawable/menu"
+        android:defaultFocusHighlightEnabled="true"
+        android:elevation="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:src="@drawable/thirtyseven"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Baby"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your baby is now 20-21 inches or so and weighs about 6-7 pounds; he looks very much like a newborn. In the vast majority of pregnancies, the fetus begins to move into delivery position. Your baby is practicing her breathing, but she has increasingly less space to practice stretching and kicking. Your baby' intestines are also building up meconium, a greenish-black substance made of baby by-products such as dead cells, shed lanugo, and amniotic fluid. It'll become your little darling's first bowel movement, hopefully after she is out of the womb."
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Belly"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This week, you may expel the cervical mucus plug, aka bloody show, at any time. If you're worried about stretch mark, be patient. They'll begin to fade a few months after you deliver. Stretch marks are caused by broken collagen fibers under your skin's surface. The strength of your collagen is genetic, so if your mom got stretch marks, you probably will, too.The harmone relaxin is causing all of the smooth muscle in your body to unclench. You'll feel like you have loose rag-doll joints. You're probably having braxtron-hicks conradiction, which you may or may not notice. How can you tell these contractions from the real thing? If you have to ask, they probably aren't. Real contractions grow progressively stronger, more intense, and more regular. "
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tips &amp; To-Do's"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Contraction Action: Many contractions that occur after week 34 are random and irregular; these are known as batrock-hicks contractions. If contractions come regularly every 10 minutes or less rather than intermittently, you may be in preterm labo."
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

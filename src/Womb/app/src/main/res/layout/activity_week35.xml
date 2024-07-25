@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week35"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ffffff"
+        app:logo="@drawable/menu"
+        android:defaultFocusHighlightEnabled="true"
+        android:elevation="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:src="@drawable/thirtyfive"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Baby"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At more than five pounds and between sixteen and twenty inches, your baby is becoming more ready for birth with every passing hour. She's the size of a small roasting chicken.Her nervous system and immune system are still maturing, and she's adding the fat that she'll need to regulate her body temperature. But, everything else, from her toenails to the hair on her head, is fully formed. If she were born now, she'd have more than a ninety-nine percent chance of surviving."
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Belly"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your size is probably making you really uncomfortable. You're carrying so much extra weight and fluid that simple things can be tiring. If your job requires sitting all day, take frequent breaks to walk around and stretch your legs (if you have the privacy to lie down for a few minutes or do stretches on your hands and knees, even better). You'll see your care provider once every one or two weeks now.. Don't forget to arrange care for any children or pets for the two to three days you'll be in the hospital. Ask a neighbour to collect your newspapers and mail. "
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tips &amp; To-Do's"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group B streptococcus (GBS) : At 35-37 weeks you'll be tested for the presence of potentially dangerous bacteria that could be passed to the baby during delivery. It involves a painless swab of your rectum and vagina. GBS is a bacterium that lives in the vagina and intestinal tract of many healthy women without causing symptoms or illness"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

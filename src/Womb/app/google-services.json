@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "486778656203",
+    "firebase_url": "https://womb-e653d.firebaseio.com",
+    "project_id": "womb-e653d",
+    "storage_bucket": "womb-e653d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486778656203:android:5ba7ae69552fe44d",
+        "android_client_info": {
+          "package_name": "com.example.manohar.womb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486778656203-3ql87bdtgtvcjk2i2h5n9tqlubl4lpvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMnBX2lmcHcARu-rLWj4DNBql-skjLd7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewRecord"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:id="@+id/nrtoolbar"
+        android:background="#ffffff"
+        app:logo="@drawable/menu"
+        android:paddingRight="45dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top">
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/newrecordbutton"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_add_circle_outline_white_24dp"
+            android:drawableLeft="@drawable/ic_add_circle_outline_white_24dp"
+            android:paddingLeft="80dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/montserrat"
+            android:background="@drawable/rounded_button"
+            android:text="Add a Record                    "/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/newrecordlist"
+        android:layout_gravity="center"
+        android:layout_width="340dp"
+        android:layout_height="fill_parent"
+        android:divider="#969696"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="15dp">
+
+    </ListView>
+
+</LinearLayout>

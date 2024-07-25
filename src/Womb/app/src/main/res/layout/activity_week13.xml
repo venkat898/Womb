@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week13"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ffffff"
+        app:logo="@drawable/menu"
+        android:defaultFocusHighlightEnabled="true"
+        android:elevation="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:src="@drawable/thirteen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Baby"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The nose and lips are completely formed, and the fetus begins to produce and excrete urine.Your baby is 2 1/2 to 3 inches long, the size of a medium goldfish. She weighs about one ounce. Your baby is shorter than a finger, but her face is already showing individual features and characteristics. Your baby spends her time in your womb flexing her new and developing muscles and joints. Bouts of prenatal hiccups are strengthening your baby's diaphragm, which is preparing her respiratory system for breathing. Less glamorous but highly necessary organ systems for making hormones, absorbing nutrients, and filtering waste are also in place this week. The pancreas, gall bladder, and thyroid have developed, the kidneys can make urine, and her bone marrow is making white blood cells to help fight infection after she's born."
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Growing Belly"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/montserrat"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good news by week 13, you'll have more energy and less nausea (it could be gone entirely by weeks 14 to 15), as the placeta takes over hormonal control. Your smell and taste aversions will probably stick with you for the rest of your pregnancy, but unless you're very unlucky, the spontaneous throwing up will ease. If you're starting to feel better, this could be a good time to try a new exercise. If you haven't tried swimming lately, check out why many care providers call it the perfect pregnancy exercise. Yoga is another low-impact activity that can help you feel better. Choose an establishment that offers a specialized prenatal yoga class.   "
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/quicksand_light" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

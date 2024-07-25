@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Womb</string>
+    <string name="name">username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab">Tab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="week">
+        <item>Week 01</item>
+        <item>Week 02</item>
+        <item>Week 03</item>
+        <item>Week 04</item>
+        <item>Week 05</item>
+        <item>Week 06</item>
+        <item>Week 07</item>
+        <item>Week 08</item>
+        <item>Week 09</item>
+        <item>Week 10</item>
+        <item>Week 11</item>
+        <item>Week 12</item>
+        <item>Week 13</item>
+        <item>Week 14</item>
+        <item>Week 15</item>
+        <item>Week 16</item>
+        <item>Week 17</item>
+        <item>Week 18</item>
+        <item>Week 19</item>
+        <item>Week 20</item>
+        <item>Week 21</item>
+        <item>Week 22</item>
+        <item>Week 23</item>
+        <item>Week 24</item>
+        <item>Week 25</item>
+        <item>Week 26</item>
+        <item>Week 27</item>
+        <item>Week 28</item>
+        <item>Week 29</item>
+        <item>Week 30</item>
+        <item>Week 31</item>
+        <item>Week 32</item>
+        <item>Week 33</item>
+        <item>Week 34</item>
+        <item>Week 35</item>
+        <item>Week 36</item>
+        <item>Week 37</item>
+        <item>Week 38</item>
+        <item>Week 39</item>
+        <item>Week 40</item>
+
+    </string-array>
+</resources>
